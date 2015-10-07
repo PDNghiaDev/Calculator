@@ -1,0 +1,139 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_fomula"
+        style="@style/TvFomula"
+        android:layout_above="@+id/tv_result"
+        android:text="1" />
+
+    <TextView
+        android:id="@+id/tv_result"
+        style="@style/TvResult"
+        android:layout_above="@+id/layout"
+        android:text="1" />
+
+    <LinearLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:weightSum="5">
+
+        <TableLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:background="@color/bg_left_side">
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:weightSum="0.99">
+
+                <Button
+                    style="@style/ButtonLeftSide"
+                    android:text="@string/seven" />
+
+                <Button
+                    style="@style/ButtonLeftSide"
+                    android:text="@string/eight" />
+
+                <Button
+                    style="@style/ButtonLeftSide"
+                    android:text="@string/nine" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:weightSum="0.99">
+
+                <Button
+                    style="@style/ButtonLeftSide"
+                    android:text="@string/four" />
+
+                <Button
+                    style="@style/ButtonLeftSide"
+                    android:text="@string/five" />
+
+                <Button
+                    style="@style/ButtonLeftSide"
+                    android:text="@string/six" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:weightSum="0.99">
+
+                <Button
+                    style="@style/ButtonLeftSide"
+                    android:text="@string/one" />
+
+                <Button
+                    style="@style/ButtonLeftSide"
+                    android:text="@string/two" />
+
+                <Button
+                    style="@style/ButtonLeftSide"
+                    android:text="@string/three" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:weightSum="0.99">
+
+                <Button
+                    style="@style/ButtonLeftSide"
+                    android:text="@string/doc" />
+
+                <Button
+                    style="@style/ButtonLeftSide"
+                    android:text="@string/zero" />
+
+                <Button
+                    style="@style/ButtonLeftSide"
+                    android:text="@string/equal" />
+            </TableRow>
+        </TableLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/bg_right_side"
+            android:minWidth="360dp"
+            android:orientation="vertical">
+
+            <Button
+                style="@style/ButtonRightSide"
+                android:text="@string/del" />
+
+            <Button
+                style="@style/ButtonRightSide"
+                android:text="@string/div" />
+
+            <Button
+                style="@style/ButtonRightSide"
+                android:text="@string/mul" />
+
+            <Button
+                style="@style/ButtonRightSide"
+                android:text="@string/sub" />
+
+            <Button
+                style="@style/ButtonRightSide"
+                android:text="@string/add" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>

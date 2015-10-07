@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg_left_side">#434343</color>
+    <color name="bg_right_side">#636363</color>
+    <color name="text_color">#ffffff</color>
+    <color name="text_fomula_portrait">#757575</color>
+    <color name="text_fomula_landscape">#b61414</color>
+    <color name="text_result_portrait">#939393</color>
+    <color name="text_result_landscape">#b73399</color>
+    <color name="bg_left_side_pressed">#636363</color>
+    <color name="bg_right_side_pressed">#838383</color>
+</resources>

@@ -8,14 +8,12 @@
     <TextView
         android:id="@+id/tv_fomula"
         style="@style/TvFomula"
-        android:layout_above="@+id/tv_result"
-        android:text="1" />
+        android:layout_above="@+id/tv_result" />
 
     <TextView
         android:id="@+id/tv_result"
         style="@style/TvResult"
-        android:layout_above="@+id/layout"
-        android:text="1" />
+        android:layout_above="@+id/layout" />
 
     <LinearLayout
         android:id="@+id/layout"
@@ -37,14 +35,17 @@
                 android:weightSum="0.99">
 
                 <Button
+                    android:id="@+id/seven"
                     style="@style/ButtonLeftSide"
                     android:text="@string/seven" />
 
                 <Button
+                    android:id="@+id/eight"
                     style="@style/ButtonLeftSide"
                     android:text="@string/eight" />
 
                 <Button
+                    android:id="@+id/nine"
                     style="@style/ButtonLeftSide"
                     android:text="@string/nine" />
             </TableRow>
@@ -55,14 +56,17 @@
                 android:weightSum="0.99">
 
                 <Button
+                    android:id="@+id/four"
                     style="@style/ButtonLeftSide"
                     android:text="@string/four" />
 
                 <Button
+                    android:id="@+id/five"
                     style="@style/ButtonLeftSide"
                     android:text="@string/five" />
 
                 <Button
+                    android:id="@+id/six"
                     style="@style/ButtonLeftSide"
                     android:text="@string/six" />
             </TableRow>
@@ -73,14 +77,17 @@
                 android:weightSum="0.99">
 
                 <Button
+                    android:id="@+id/one"
                     style="@style/ButtonLeftSide"
                     android:text="@string/one" />
 
                 <Button
+                    android:id="@+id/two"
                     style="@style/ButtonLeftSide"
                     android:text="@string/two" />
 
                 <Button
+                    android:id="@+id/three"
                     style="@style/ButtonLeftSide"
                     android:text="@string/three" />
             </TableRow>
@@ -91,14 +98,17 @@
                 android:weightSum="0.99">
 
                 <Button
+                    android:id="@+id/doc"
                     style="@style/ButtonLeftSide"
                     android:text="@string/doc" />
 
                 <Button
+                    android:id="@+id/zero"
                     style="@style/ButtonLeftSide"
                     android:text="@string/zero" />
 
                 <Button
+                    android:id="@+id/equal"
                     style="@style/ButtonLeftSide"
                     android:text="@string/equal" />
             </TableRow>
@@ -113,22 +123,27 @@
             android:orientation="vertical">
 
             <Button
+                android:id="@+id/del"
                 style="@style/ButtonRightSide"
                 android:text="@string/del" />
 
             <Button
+                android:id="@+id/div"
                 style="@style/ButtonRightSide"
                 android:text="@string/div" />
 
             <Button
+                android:id="@+id/mul"
                 style="@style/ButtonRightSide"
                 android:text="@string/mul" />
 
             <Button
+                android:id="@+id/sub"
                 style="@style/ButtonRightSide"
                 android:text="@string/sub" />
 
             <Button
+                android:id="@+id/add"
                 style="@style/ButtonRightSide"
                 android:text="@string/add" />
 
